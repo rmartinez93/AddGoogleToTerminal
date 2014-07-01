@@ -1,11 +1,21 @@
-Add Google to Terminal:
+Add Google to Terminal
 ================
+
+**Supported Platforms**
+- Mac OS X — Tested
+- Likely works on al *NIX systems
+
+**Usage**
 
 For those of us that live in the terminal, it can be a bit of a mental context shift to go to a browser and type in a query when we're stuck on something. Sometimes by the time your browser opens or Google.com loads, you've forgotten your query! To remove one step between me and my search results, I added a command to my terminal:
 
     $ google "my query"
 
-This will open up your default browser and present you with the search results to whatever you choose to search. To install, download the `addGoogleToTerminal.sh` file. Open your terminal and install it as follows:
+This will open up your default browser and present you with the search results to whatever you choose to search. 
+
+**Instructions**
+
+To install, download the `addGoogleToTerminal.sh` file. Open your terminal and install it as follows:
 
     $ cd ~/path-to-file/
     $ ./addGoogleToTerminal.sh
