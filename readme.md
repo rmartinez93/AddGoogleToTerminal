@@ -19,10 +19,15 @@ This command will open up your default browser and present you with the search r
 
 To install, download the `addGoogleToTerminal.sh` file. Open your terminal and install it as follows:
 
-    $ cd ~/path-to-file/
-    $ ./addGoogleToTerminal.sh
+    $ cd ~/path-to-file-dir/
+    $ ./googleSearchCLI.sh
 		
 This adds a few lines to your `~/.bash-profile` file that give you the ability to use the `google` command. Afterwards, restart your terminal to use the functionality, and feel free to delete the .sh file.
+
+If this doesn't work for you, or if the script doesn't run, you may have to change permission settings on the file to make it executable:
+
+    $ cd ~/path-to-file-dir/
+    $ chmod +x googleSearchCLI.sh
 
 **Available Flags**
 
