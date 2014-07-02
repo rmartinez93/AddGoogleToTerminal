@@ -1,1 +1,5 @@
-echo -e "#AddGoogleToTerminal\nfunction google() {\n  if [ \$1 = \"--images\" ]; then\n    open https://google.com/search?tbm=isch\&q=\"\$2\"\n  elif [ \$1 = \"--news\" ]; then\n    open https://google.com/search?tbm=nws\&q=\"\$2\"\n  else\n    open https://google.com/search?q=\"\$1\"\n  fi\n}\n$( cat ~/.bash_profile )" > ~/.bash_profile
+if [ `uname` == "Linux" ]; then
+  echo -e "#Start GoogleSearchCLI\nfunction google() {\n  if [ \$1 == \"--images\" ]; then\n    xdg-open https://google.com/search?tbm=isch\&q=\"\$2\"\n  elif [ \$1 == \"--news\" ]; then\n    xdg-open https://google.com/search?tbm=nws\&q=\"\$2\"\n  else\n    xdg-open https://google.com/search?q=\"\$1\"\n  fi\n}\n#End GoogleSearchCLI\n$( cat ~/.bash_profile )" > ~/.bash_profile
+elif [ `uname` == "Darwin" ]; then
+  echo -e "#Start GoogleSearchCLI\nfunction google() {\n  if [ \$1 == \"--images\" ]; then\n    open https://google.com/search?tbm=isch\&q=\"\$2\"\n  elif [ \$1 == \"--news\" ]; then\n    open https://google.com/search?tbm=nws\&q=\"\$2\"\n  else\n    open https://google.com/search?q=\"\$1\"\n  fi\n}\n#End GoogleSearchCLI\n$( cat ~/.bash_profile )" > ~/.bash_profile
+fi
