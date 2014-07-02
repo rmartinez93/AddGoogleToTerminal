@@ -7,7 +7,11 @@ Add Google to Terminal
 
 **Usage**
 
+<<<<<<< HEAD
 For those of us that live in the terminal, it can be a bit of a mental context shift to go to a browser and type in a query when we're stuck on something. Sometimes by the time your browser opens or Google.com loads, you've forgotten your query! To remove one step between me and my search results, I added a `google` command to my terminal:
+=======
+For those of us that live in the terminal, it can be a bit of a mental context shift to go to a browser and type in a query when we're stuck on something. Sometimes by the time your browser opens or Google.com loads, you've forgotten your query! To remove one step between me and my search results, I added a command to my terminal:
+>>>>>>> FETCH_HEAD
 
     $ google "my query"
 		$ google --images "puppies"
@@ -15,6 +19,11 @@ For those of us that live in the terminal, it can be a bit of a mental context s
 
 This will open up your default browser and present you with the search results to whatever you choose to search. 
 
+<<<<<<< HEAD
+=======
+This will open up your default browser and present you with the search results to whatever you choose to search. 
+
+>>>>>>> FETCH_HEAD
 **Instructions**
 
 To install, download the `addGoogleToTerminal.sh` file. Open your terminal and install it as follows:
