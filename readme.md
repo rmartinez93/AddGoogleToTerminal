@@ -3,7 +3,7 @@ Google Search CLI (unofficial)
 
 **Supported Platforms**
 - Mac OS X — Tested
-- Likely works on al *NIX systems
+- ~~Likely works on al *NIX systems~~ **In Progress**
 
 **Usage**
 
