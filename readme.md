@@ -3,7 +3,8 @@ Google Search CLI (unofficial)
 
 **Supported Platforms**
 - Mac OS X — Tested
-- ~~Likely works on al *NIX systems~~ **In Progress**
+- Ubuntu
+- Other Linux Distros that support `xdg-open`
 
 **Usage**
 
@@ -31,11 +32,11 @@ If this doesn't work for you, or if the script doesn't run, you may have to chan
 
 **DIY Instructions**
 
-The file `.bash-profile` contains the code that my `GoogleSearchCLI.sh` script automatically injects. If you don't want to use the script, you can add the `google` function manually by copying the code in there into the top of your `~/.bash-profile`
+The file `.bash-profile` contains the code that my `GoogleSearchCLI.sh` script automatically injects. If you don't want to use the script, you can add the `google` function manually by copying the code in there into the top of your `~/.bash-profile`. There are seperate sections for Mac or Linux.
 
 **Removal Instructions**
 
-Coming Soon
+A removal tool is coming soon. For now, delete the lines injected by the `.sh` script from your `~/.bash_profile`. They will are clearly marked by comments.
 
 **Available Flags**
 
