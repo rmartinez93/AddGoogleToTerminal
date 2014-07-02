@@ -1,0 +1,1 @@
+echo -e "#AddGoogleToTerminal\nfunction google() {\n  if [ \$1 = \"--images\" ]; then\n    open https://google.com/search?tbm=isch\&q=\"\$2\"\n  elif [ \$1 = \"--news\" ]; then\n    open https://google.com/search?tbm=nws\&q=\"\$2\"\n  else\n    open https://google.com/search?q=\"\$1\"\n  fi\n}\n$( cat ~/.bash_profile )" > ~/.bash_profile
