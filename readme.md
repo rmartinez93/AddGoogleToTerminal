@@ -15,7 +15,7 @@ For those of us that live in the terminal, it can be a bit of a mental context s
 
 This command will open up your default browser and present you with the search results to whatever you choose to search. Note, any flags must be presented as the second argument.
 
-**Instructions**
+**Script Instructions**
 
 To install, download the `GoogleSearchCLI.sh` file. Open your terminal and install it as follows:
 
@@ -28,6 +28,14 @@ If this doesn't work for you, or if the script doesn't run, you may have to chan
 
     $ cd ~/path-to-file-dir/
     $ chmod +x GoogleSearchCLI.sh
+
+**DIY Instructions**
+
+The file `.bash-profile` contains the code that my `GoogleSearchCLI.sh` script automatically injects. If you don't want to use the script, you can add the `google` function manually by copying the code in there into the top of your `~/.bash-profile`
+
+**Removal Instructions**
+
+Coming Soon
 
 **Available Flags**
 
