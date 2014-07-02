@@ -13,7 +13,7 @@ For those of us that live in the terminal, it can be a bit of a mental context s
     $ google --images "puppies"
     $ google --news "world news"
 
-This will open up your default browser and present you with the search results to whatever you choose to search. 
+This will open up your default browser and present you with the search results to whatever you choose to search. Note, any flags must be presented as the second argument.
 
 **Instructions**
 
